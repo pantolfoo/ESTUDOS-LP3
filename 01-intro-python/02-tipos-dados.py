@@ -98,7 +98,7 @@ print(habilidades) #{'java', 'python', 'C#'}
 # conjunto de chave valor
 
 nome = "Bruno Pantolfo"
-idade= 18
+idade= 18 
 habilidades = ['mecatronica', 'eletronica', 'eletrotecnica']
 empregado = True
 
