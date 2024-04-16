@@ -3,5 +3,6 @@
 Este repositório tem como objetivo, armazenar e controlar os códigos da disciplina de Linguagem de Programação 3 (LP3)
 
 ## Aulas 
-- Aula 00 - Git e GitHub
-- Aula 01 - Introdução ao Python
+- Aula 00 - Comandos e introdução ao Git e GitHub
+- Aula 01 - Introdução ao Python e exercícios
+- Aula 02 - Funções e exercícios
