@@ -1,3 +1,4 @@
+'''Ex07 - Jogo da Forca: Implemente uma versão simples 
 '''
 Ex07 - Jogo da Forca: Implemente uma versão simples do jogo da forca. 
 O programa começa com uma palavra oculta (o usuário não vê) e o usuário tenta adivinhar a palavra, 
@@ -6,23 +7,26 @@ O usuário tem um número limitado de tentativas para adivinhar toda a palavra.
 '''
 # nao to conseguindo tirara o numero de chances conforme o usuário joga
 
-def forca():
-    palavra = 'isabella'
+def forca(palavra):
+    
     letras_entrada = []
-    chances = 4
+    chances = 7
     ganhou = False
-
+    
     while True:
+        
         for letra in palavra:
+            
             if letra.lower() in letras_entrada:
                 print(letra, end=" ")
 
             else:
                 print("_", end=" ")
 
+        
         print(f"Você tem {chances} chances")
-
-        tentativa = input("Escolha uma letra para adivinhar: ")
+        tentativa = input("Digite uma letra: ")
+        
 
         letras_entrada.append(tentativa.lower())
 
@@ -32,6 +36,7 @@ def forca():
         ganhou = True
 
         for letra in palavra:
+            
             if letra.lower() not in letras_entrada:
                 ganhou = False
 
@@ -39,9 +44,11 @@ def forca():
             break
 
     if ganhou:
-        print(f"Boa, você acertou! A palavra era: {palavra}")
+        print(f"Ganhou! Parabens a palavra é {palavra}")
 
     else:
-        print(f"Que pena, você perdeu! A palavra correta era: {palavra}")
+        print(f"Ja eraaa, a palavra correta era: {palavra}")
 
-forca()
+
+palavra = input('Digite a palavra a ser adivinhada')
+forca(palavra)
