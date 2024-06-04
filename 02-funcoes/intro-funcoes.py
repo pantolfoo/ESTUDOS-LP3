@@ -16,9 +16,9 @@ def imprimir_nome(nome):
 
 
 saudar()
-# Argumento é a variavel passada da instancia da Fn, nesses casos, 'Lucas' e 'Joel'
+# Argumento é a variavel passada da instancia da Fn, nesses casos, 'Lucas' e 'Milho'
 imprimir_nome('Lucas')
-imprimir_nome('Joel')
+imprimir_nome('Milho')
 
 # Função com retorno, sem parametro
 def gerar_saudcao():
@@ -33,7 +33,7 @@ def gerar_saudacao_nome(nome):
 print(gerar_saudacao_nome('Jorge'))
 
 
-# O melhor caso a ser usado é com parametros e com retorno (ATENÇÃO), pois usa Fn's puras
+# O melhor caso a ser usado é com parametros e com retorno (ATENÇÃO), pois usa funcoes puras
 # Função pura é uma função sem efeitos colaterais
 
 #calcula a media de varios alunos
