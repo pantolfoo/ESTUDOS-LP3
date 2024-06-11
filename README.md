@@ -6,3 +6,5 @@ Este repositório tem como objetivo, armazenar e controlar os códigos da discip
 - Aula 00 - Comandos e introdução ao Git e GitHub
 - Aula 01 - Introdução ao Python e exercícios
 - Aula 02 - Funções e exercícios
+- Aula 03 - Módulos e pacotes
+  
